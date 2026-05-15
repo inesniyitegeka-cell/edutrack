@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form </title>
+
+  <style>
+    .logo {
+        font-weight: 800;
+        font-family: serif;
+        font-size: 1.4rem;
+        cursor: pointer;
+        color: rgb(2, 100, 221);
+        letter-spacing: -0.5px;
+      }
+
+    .container {
+        background-color: rgb(210, 226, 245);
+        padding: 10px;
+        border-radius: 10%;
+        height: 40vh;
+        width: 300px;
+        align-items: center;
+        gap: 4px;
+        justify-content: space-between;
+      }
+
+    p {
+        color: rgb(33, 117, 244);
+        font-weight: 10;
+        font-size: 1.2rem;
+        cursor: pointer;
+        letter-spacing: -0.4px;
+     }
+
+    input {
+        border-radius: 5px;
+        width: 270px;
+        height: 4vh;
+      }
+
+    button {
+          align-items: center;
+          bottom: 5px;
+          background-color:rgb(194, 216, 249) ;
+          border-radius:10px ;
+          color: rgb(6, 24, 218);
+          padding: 2%;
+          font-weight: 50;
+          font-size: 1.2rem;
+          cursor: pointer;
+          justify-content: space-between;
+          width: 80px; 
+      }
+
+    header {
+          padding: 32px 0;
+          border-bottom: 1px ;
+          background-attachment: fixed;
+          background-color: rgb(244, 254, 254);
+          margin-bottom: 52px;
+          text-decoration: none;
+          padding: 8px 14px;
+          font-weight: 600;
+          transition: color 0.2s, background-color 0.2s;
+          font-size: .95rem;
+          position: sticky;
+          top: 20px;
+          z-index: 100;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+    body {
+          color: rgb(224, 231, 232);
+          background-color: rgb(231, 242, 253);
+          line-height: 1.6;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+      }
+
+    .footer {
+          background: whitesmoke;
+          border-top: 1px  black;
+          padding: 32px;
+          text-align: center;
+          margin-top: auto;
+          font-size: 0.9rem;
+          color:  #64748b;
+      }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Edu -<span>Track.</span></div>
+  </header>
+
+    <div class="container">
+      <p>Student Name</p>
+      <input type="text">
+      <p>Email</p>
+      <input type="text">
+    </div>
+
+    <button  onclick="login"><a href="index.html">LOGIN</a></button>
+
+    <footer class="footer">
+      <p>&copy; 2026 Edu-Track. All rights reserved. Level Iga-Now Tech Program Internship</p>
+    </footer>
+</body>
+</html>
